@@ -42,7 +42,7 @@ Open AKHQ - KAFKA GUI
 
 ![alt text](https://i.ibb.co/SQLsQWT/Capture.png)
 
-Start KAFKA Producer and Consumer on Nodejs (Config for your test)
+Start KAFKA Producer and Consumer on Nodejs (Config first)
 
 ```
 node producer.js
