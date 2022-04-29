@@ -16,3 +16,4 @@ Base on [this scenario](https://www.confluent.io/blog/kafka-client-cannot-connec
 
 ### Architecture
 
+![alt text](https://i.ibb.co/dfNhQmD/cluster-architecture.png)
