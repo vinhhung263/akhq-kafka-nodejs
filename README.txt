@@ -1,4 +1,1 @@
-docker-compose pull
-docker-compose up
-
-go to http://localhost:8080
+# Manage & view data inside your Apache Kafka with AKHQ
