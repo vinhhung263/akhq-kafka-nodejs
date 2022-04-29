@@ -41,3 +41,21 @@ telnet localhost:9094
 Open AKHQ - KAFKA GUI
 
 ![alt text](https://i.ibb.co/SQLsQWT/Capture.png)
+
+Start KAFKA Producer and Consumer on Nodejs (Config for your test)
+
+```
+node producer.js
+node consumer.js
+```
+
+## Reference
+
+[1] AKHQ - https://akhq.io/docs/
+
+[2] Confluent - https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/#scenario-4
+
+[3] Multi-node Kafka cluster (three brokers) - https://gist.github.com/rmoff/ba6c335367764953e390e273e019c083
+
+[4] https://www.npmjs.com/package/node-rdkafka
+
