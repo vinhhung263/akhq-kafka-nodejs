@@ -17,3 +17,27 @@ Base on [this scenario](https://www.confluent.io/blog/kafka-client-cannot-connec
 ### Architecture
 
 ![alt text](https://i.ibb.co/dfNhQmD/cluster-architecture.png)
+
+
+## Steps
+
+Run docker-compose to build KAFKA Cluster with 3 brokers and AKHQ
+
+```
+docker-compose pull
+docker-compose up
+```
+
+Check connections
+
+```
+docker container ls
+telnet localhost:8080
+telnet localhost:9092
+telnet localhost:9093
+telnet localhost:9094
+```
+
+Open AKHQ - KAFKA GUI
+
+![alt text](https://i.ibb.co/SQLsQWT/Capture.png)
